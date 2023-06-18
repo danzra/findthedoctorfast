@@ -1,0 +1,22 @@
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-base: 8px;
+  --font-size-lg: 10px;
+  --font-size-xl: 11px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkturquoise: #2cbfc6;
+  --color-aliceblue: #f3f7ff;
+  --color-black: #000;
+  --color-darkslateblue: #153e90;
+  --color-darkslategray: #3d4044;
+  --color-gray-100: #8a8a8a;
+
+  /* border radiuses */
+  --br-sm: 2px;
+  --br-md: 5px;
+}

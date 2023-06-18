@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="descsection-parent">
+
+      <div class="descsection">
+        <div class="descsectionbg"></div>
+        <div class="imgarea">
+          <div class="imgareabg"></div>
+          <img class="doctorimg-icon" alt="" src="public/doctorimg@2x.png" />
+          <div class="docdesc">
+            <div class="docdescbg"></div>
+            <b class="docspecialization"
+              ><p class="heart-specialist">Heart Specialist</p></b
+            ><b class="docname">Dr Ravi</b
+            ><img class="ratingicon" alt="" src="public/ratingicon@2x.png" />
+          </div>
+        </div>
+        <div class="descarea">
+          <div class="descareabg"></div>
+          <button class="seedoctorsbox" id="seeDoctorsBox">
+            See Doctors<img
+              class="arrowicon"
+              alt=""
+              src="public/arrowicon@2x.png"
+            /></button
+          ><b class="how-well-does-container"
+            ><p class="heart-specialist">
+              How well does your primary doctor know you?
+            </p>
+            <p class="heart-specialist">Do they see you atleast once a year?</p>
+            <p class="heart-specialist">
+              Maybe during this past year, when health has
+            </p>
+            <p class="heart-specialist">
+              been at the forefront, you were able to see
+            </p>
+            <p class="this-critical-caretaker">
+              this critical caretaker more than once.
+            </p></b
+          ><b class="discovering-a-doctor"
+            >Discovering a doctor you can make long-term relationship which is
+            useful for your well-being.</b
+          >
+        </div>
+      </div>
+
+
+      <div id="searchSection" class="servicesection">
+        
+        <div class="solutionsection">
+          <div class="solutionsectionbg"></div>
+          <b class="solutiondesc"
+            >We will help you find and provide solutions for your health</b
+          ><b class="solutiontitle">Get your solution</b>
+          <div class="solutionbox" id="solutionBoxContainer">
+            <div class="solutionbg"></div>
+            <img class="solutionicon" alt="" src="public/solutionicon@2x.png" />
+          </div>
+        </div>
+
+        <div class="appointmentsection">
+          <div class="solutionsectionbg"></div>
+          <b class="appointmenttitle">Schedule Appointment</b
+          ><b class="appointmentdesc"
+            >Select a date to set an appointment with your doctor.</b
+          >
+          <div class="solutionbox" id="locationBoxContainer">
+            <img
+              class="locationbg-icon"
+              alt=""
+              src="public/locationbg.svg"
+            /><img
+              class="appointmenticon"
+              alt=""
+              src="public/appointmenticon@2x.png"
+            />
+          </div>
+        </div>
+
+        <div class="locationsection">
+          <div class="solutionsectionbg"></div>
+          <b class="locationdesc"
+            >Enter your location and we will help you find appointment near
+            you.</b
+          ><b class="locationtitle">Choose your location</b>
+          <div class="solutionbox" id="locationBoxContainer1">
+            <img
+              class="locationbg-icon"
+              alt=""
+              src="public/locationbg1.svg"
+            /><img
+              class="locationicon"
+              alt=""
+              src="public/locationicon@2x.png"
+            />
+          </div>
+        </div>
+
+        <div class="searchdoctorsection">
+          <div class="solutionsectionbg"></div>
+          <b class="searchdoctordesc"
+            ><p class="heart-specialist">Before booking the appointment
+              first of all search doctor by speciality.
+            </p></b
+          ><b class="searchdoctortitle">Search Doctor</b>
+          <div class="searchdoctorbox" id="searchDoctorBoxContainer">
+            <img
+              class="locationbg-icon"
+              alt=""
+              src="public/searchdoctorbg.svg"
+            /><img class="doctoricon" alt="" src="public/doctoricon@2x.png" />
+          </div>
+        </div>
+        <b class="servicesectiontitle">4 easy steps to get your solution</b>
+      </div>
+
+
+      <div class="bannersection">
+        <div class="bannersectionbg"></div>
+        <div class="bannerimg">
+          <div class="bannerimgbg"></div>
+          <img class="bannerimg-icon" alt="" src="public/bannerimg@2x.png" />
+        </div>
+        <div class="formareasection">
+          <div class="formareabg"></div>
+          <form class="form" method="post">
+            <div class="formbg"></div>
+            <button type="button" class="searchbtn" id="searchBtn">
+              
+              <img
+                class="search-1-icon"
+                alt=""
+                src="public/search-1@2x.png"
+              /></button
+            ><input
+              id="doctor_area"
+              class="locationinput"
+              type="text"
+              placeholder="Search Location"
+            /><input
+              id="doctor_type"
+              class="categoryinput"
+              type="text"
+              placeholder="Search Speciality"
+            />
+          </form>
+          <b class="bannerdesc"
+            ><p class="heart-specialist">
+              We take the guesswork out of locating a doctor, hospital, or
+              other medical facility in your area for you and for your family.
+            </p></b
+          ><b class="bannertitle"
+            ><span>Find your </span><span class="doctor">doctor</span
+            ><span> and make an </span
+            ><span class="doctor">appointment.</span></b
+          >
+        </div>
+      </div>
+
+
+      <div class="navbar">
+        <div class="menusection"></div>
+        <div class="menubtn">
+          <div class="menubtnbg"></div>
+          <button class="signupbtn">
+            Sign Up</button
+          ><a class="contactbtn"  target="_blank">Contact</a
+          ><a class="aboutusbtn" target="_blank">About Us</a
+          ><a class="servicesbtn"  target="_blank"
+            >Services</a
+          ><a class="homebtn"  target="_blank">Home</a>
+        </div>
+        <div class="logo" id="logoContainer">
+          <div class="logobg"></div>
+          <a class="medicon" href="/" target="_blank"
+            ><span>Medi</span><span class="con">con</span></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      $(document).ready(function(){
+        $("#searchBtn").click(function(){
+          
+          var doctor_type=$("#doctor_type").val();
+          var doctor_area=$("#doctor_area").val();
+
+          $.post("webservice1.php", {search: doctor_type, area: doctor_area}, function(response){
+            $("#searchSection").html(response);
+          });
+        })
+      });
+
+      var seeDoctorsBox = document.getElementById("seeDoctorsBox");
+      if (seeDoctorsBox) {
+        seeDoctorsBox.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      var solutionBoxContainer = document.getElementById("solutionBoxContainer");
+      if (solutionBoxContainer) {
+        solutionBoxContainer.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      var locationBoxContainer = document.getElementById("locationBoxContainer");
+      if (locationBoxContainer) {
+        locationBoxContainer.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      var locationBoxContainer1 = document.getElementById("locationBoxContainer1");
+      if (locationBoxContainer1) {
+        locationBoxContainer1.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      var searchDoctorBoxContainer = document.getElementById(
+        "searchDoctorBoxContainer"
+      );
+      if (searchDoctorBoxContainer) {
+        searchDoctorBoxContainer.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      </script>
+  </body>
+</html>
